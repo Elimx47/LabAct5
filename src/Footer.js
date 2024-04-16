@@ -20,7 +20,7 @@ function Footer({ items }) {
         You have {items.length} {itemText} in your list, and you already
         completed {completedItems}
       </p>
-      <p>({percentageCompleted}%)</p>
+      <p>Completion Progress: ({percentageCompleted}%)</p>
     </div>
   );
 }
